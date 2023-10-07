@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		104BC8732ACFEF9B008464A5 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104BC8722ACFEF9B008464A5 /* Buttons.swift */; };
+		104BC8752ACFF37E008464A5 /* TopDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104BC8742ACFF37E008464A5 /* TopDialog.swift */; };
+		104BC8772ACFF94C008464A5 /* Badgeview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104BC8762ACFF94C008464A5 /* Badgeview.swift */; };
+		104BC87B2AD00C11008464A5 /* SteakHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104BC87A2AD00C11008464A5 /* SteakHeader.swift */; };
+		104BC87D2AD0109F008464A5 /* Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104BC87C2AD0109F008464A5 /* Achievement.swift */; };
+		104BC87F2AD01172008464A5 /* Calender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104BC87E2AD01172008464A5 /* Calender.swift */; };
+		104BC8812AD01C2F008464A5 /* BadgesCollectionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104BC8802AD01C2F008464A5 /* BadgesCollectionScreen.swift */; };
+		107BD9BD2ACF25270035C125 /* Dialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107BD9BC2ACF25270035C125 /* Dialog.swift */; };
+		1093B55A2ACD427400BFC7F1 /* TeshamesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1093B5592ACD427400BFC7F1 /* TeshamesApp.swift */; };
+		1093B55C2ACD427400BFC7F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1093B55B2ACD427400BFC7F1 /* ContentView.swift */; };
+		1093B55E2ACD427500BFC7F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1093B55D2ACD427500BFC7F1 /* Assets.xcassets */; };
+		1093B5612ACD427500BFC7F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1093B5602ACD427500BFC7F1 /* Preview Assets.xcassets */; };
+		1093B56B2ACD427500BFC7F1 /* TeshamesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1093B56A2ACD427500BFC7F1 /* TeshamesTests.swift */; };
+		1093B5752ACD427500BFC7F1 /* TeshamesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1093B5742ACD427500BFC7F1 /* TeshamesUITests.swift */; };
+		1093B5772ACD427500BFC7F1 /* TeshamesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1093B5762ACD427500BFC7F1 /* TeshamesUITestsLaunchTests.swift */; };
+		1093B5872ACD458C00BFC7F1 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1093B5862ACD458C00BFC7F1 /* SplashScreen.swift */; };
+		1093B58B2ACD554F00BFC7F1 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1093B58A2ACD554F00BFC7F1 /* MainScreen.swift */; };
+		1093B58E2ACD743900BFC7F1 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1093B58D2ACD743900BFC7F1 /* HeaderView.swift */; };
+		1093B5922ACE7E4200BFC7F1 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1093B5912ACE7E4200BFC7F1 /* Styles.swift */; };
+		1093B5942ACE85BA00BFC7F1 /* StreakScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1093B5932ACE85BA00BFC7F1 /* StreakScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1093B5672ACD427500BFC7F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1093B54E2ACD427400BFC7F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1093B5552ACD427400BFC7F1;
+			remoteInfo = Teshames;
+		};
+		1093B5712ACD427500BFC7F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1093B54E2ACD427400BFC7F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1093B5552ACD427400BFC7F1;
+			remoteInfo = Teshames;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		104BC8722ACFEF9B008464A5 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		104BC8742ACFF37E008464A5 /* TopDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopDialog.swift; sourceTree = "<group>"; };
+		104BC8762ACFF94C008464A5 /* Badgeview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badgeview.swift; sourceTree = "<group>"; };
+		104BC87A2AD00C11008464A5 /* SteakHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteakHeader.swift; sourceTree = "<group>"; };
+		104BC87C2AD0109F008464A5 /* Achievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achievement.swift; sourceTree = "<group>"; };
+		104BC87E2AD01172008464A5 /* Calender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calender.swift; sourceTree = "<group>"; };
+		104BC8802AD01C2F008464A5 /* BadgesCollectionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgesCollectionScreen.swift; sourceTree = "<group>"; };
+		107BD9BC2ACF25270035C125 /* Dialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dialog.swift; sourceTree = "<group>"; };
+		1093B5562ACD427400BFC7F1 /* Teshames.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Teshames.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1093B5592ACD427400BFC7F1 /* TeshamesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeshamesApp.swift; sourceTree = "<group>"; };
+		1093B55B2ACD427400BFC7F1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1093B55D2ACD427500BFC7F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1093B5602ACD427500BFC7F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1093B5662ACD427500BFC7F1 /* TeshamesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeshamesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1093B56A2ACD427500BFC7F1 /* TeshamesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeshamesTests.swift; sourceTree = "<group>"; };
+		1093B5702ACD427500BFC7F1 /* TeshamesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeshamesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1093B5742ACD427500BFC7F1 /* TeshamesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeshamesUITests.swift; sourceTree = "<group>"; };
+		1093B5762ACD427500BFC7F1 /* TeshamesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeshamesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1093B5862ACD458C00BFC7F1 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		1093B58A2ACD554F00BFC7F1 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		1093B58D2ACD743900BFC7F1 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		1093B5912ACE7E4200BFC7F1 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		1093B5932ACE85BA00BFC7F1 /* StreakScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1093B5532ACD427400BFC7F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1093B5632ACD427500BFC7F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1093B56D2ACD427500BFC7F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		104BC8782AD00352008464A5 /* MainElements */ = {
+			isa = PBXGroup;
+			children = (
+				104BC8762ACFF94C008464A5 /* Badgeview.swift */,
+				104BC8722ACFEF9B008464A5 /* Buttons.swift */,
+				1093B58D2ACD743900BFC7F1 /* HeaderView.swift */,
+				104BC8742ACFF37E008464A5 /* TopDialog.swift */,
+				107BD9BC2ACF25270035C125 /* Dialog.swift */,
+			);
+			path = MainElements;
+			sourceTree = "<group>";
+		};
+		104BC8792AD003A6008464A5 /* StreakElements */ = {
+			isa = PBXGroup;
+			children = (
+				104BC87A2AD00C11008464A5 /* SteakHeader.swift */,
+				104BC87C2AD0109F008464A5 /* Achievement.swift */,
+				104BC87E2AD01172008464A5 /* Calender.swift */,
+			);
+			path = StreakElements;
+			sourceTree = "<group>";
+		};
+		1093B54D2ACD427400BFC7F1 = {
+			isa = PBXGroup;
+			children = (
+				1093B5582ACD427400BFC7F1 /* Teshames */,
+				1093B5692ACD427500BFC7F1 /* TeshamesTests */,
+				1093B5732ACD427500BFC7F1 /* TeshamesUITests */,
+				1093B5572ACD427400BFC7F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1093B5572ACD427400BFC7F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1093B5562ACD427400BFC7F1 /* Teshames.app */,
+				1093B5662ACD427500BFC7F1 /* TeshamesTests.xctest */,
+				1093B5702ACD427500BFC7F1 /* TeshamesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1093B5582ACD427400BFC7F1 /* Teshames */ = {
+			isa = PBXGroup;
+			children = (
+				1093B5902ACE7E0200BFC7F1 /* Extensions */,
+				1093B58C2ACD740B00BFC7F1 /* Elements */,
+				1093B5832ACD42A000BFC7F1 /* Screens */,
+				1093B5592ACD427400BFC7F1 /* TeshamesApp.swift */,
+				1093B55D2ACD427500BFC7F1 /* Assets.xcassets */,
+				1093B55F2ACD427500BFC7F1 /* Preview Content */,
+			);
+			path = Teshames;
+			sourceTree = "<group>";
+		};
+		1093B55F2ACD427500BFC7F1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1093B5602ACD427500BFC7F1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1093B5692ACD427500BFC7F1 /* TeshamesTests */ = {
+			isa = PBXGroup;
+			children = (
+				1093B56A2ACD427500BFC7F1 /* TeshamesTests.swift */,
+			);
+			path = TeshamesTests;
+			sourceTree = "<group>";
+		};
+		1093B5732ACD427500BFC7F1 /* TeshamesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1093B5742ACD427500BFC7F1 /* TeshamesUITests.swift */,
+				1093B5762ACD427500BFC7F1 /* TeshamesUITestsLaunchTests.swift */,
+			);
+			path = TeshamesUITests;
+			sourceTree = "<group>";
+		};
+		1093B5832ACD42A000BFC7F1 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				1093B55B2ACD427400BFC7F1 /* ContentView.swift */,
+				1093B5862ACD458C00BFC7F1 /* SplashScreen.swift */,
+				1093B58A2ACD554F00BFC7F1 /* MainScreen.swift */,
+				1093B5932ACE85BA00BFC7F1 /* StreakScreen.swift */,
+				104BC8802AD01C2F008464A5 /* BadgesCollectionScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		1093B58C2ACD740B00BFC7F1 /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				104BC8792AD003A6008464A5 /* StreakElements */,
+				104BC8782AD00352008464A5 /* MainElements */,
+			);
+			path = Elements;
+			sourceTree = "<group>";
+		};
+		1093B5902ACE7E0200BFC7F1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1093B5912ACE7E4200BFC7F1 /* Styles.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1093B5552ACD427400BFC7F1 /* Teshames */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1093B57A2ACD427500BFC7F1 /* Build configuration list for PBXNativeTarget "Teshames" */;
+			buildPhases = (
+				1093B5522ACD427400BFC7F1 /* Sources */,
+				1093B5532ACD427400BFC7F1 /* Frameworks */,
+				1093B5542ACD427400BFC7F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Teshames;
+			productName = Teshames;
+			productReference = 1093B5562ACD427400BFC7F1 /* Teshames.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1093B5652ACD427500BFC7F1 /* TeshamesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1093B57D2ACD427500BFC7F1 /* Build configuration list for PBXNativeTarget "TeshamesTests" */;
+			buildPhases = (
+				1093B5622ACD427500BFC7F1 /* Sources */,
+				1093B5632ACD427500BFC7F1 /* Frameworks */,
+				1093B5642ACD427500BFC7F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1093B5682ACD427500BFC7F1 /* PBXTargetDependency */,
+			);
+			name = TeshamesTests;
+			productName = TeshamesTests;
+			productReference = 1093B5662ACD427500BFC7F1 /* TeshamesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1093B56F2ACD427500BFC7F1 /* TeshamesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1093B5802ACD427500BFC7F1 /* Build configuration list for PBXNativeTarget "TeshamesUITests" */;
+			buildPhases = (
+				1093B56C2ACD427500BFC7F1 /* Sources */,
+				1093B56D2ACD427500BFC7F1 /* Frameworks */,
+				1093B56E2ACD427500BFC7F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1093B5722ACD427500BFC7F1 /* PBXTargetDependency */,
+			);
+			name = TeshamesUITests;
+			productName = TeshamesUITests;
+			productReference = 1093B5702ACD427500BFC7F1 /* TeshamesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1093B54E2ACD427400BFC7F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					1093B5552ACD427400BFC7F1 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					1093B5652ACD427500BFC7F1 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 1093B5552ACD427400BFC7F1;
+					};
+					1093B56F2ACD427500BFC7F1 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 1093B5552ACD427400BFC7F1;
+					};
+				};
+			};
+			buildConfigurationList = 1093B5512ACD427400BFC7F1 /* Build configuration list for PBXProject "Teshames" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1093B54D2ACD427400BFC7F1;
+			productRefGroup = 1093B5572ACD427400BFC7F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1093B5552ACD427400BFC7F1 /* Teshames */,
+				1093B5652ACD427500BFC7F1 /* TeshamesTests */,
+				1093B56F2ACD427500BFC7F1 /* TeshamesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1093B5542ACD427400BFC7F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1093B5612ACD427500BFC7F1 /* Preview Assets.xcassets in Resources */,
+				1093B55E2ACD427500BFC7F1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1093B5642ACD427500BFC7F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1093B56E2ACD427500BFC7F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1093B5522ACD427400BFC7F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				104BC8732ACFEF9B008464A5 /* Buttons.swift in Sources */,
+				104BC87F2AD01172008464A5 /* Calender.swift in Sources */,
+				104BC87B2AD00C11008464A5 /* SteakHeader.swift in Sources */,
+				1093B58E2ACD743900BFC7F1 /* HeaderView.swift in Sources */,
+				1093B5942ACE85BA00BFC7F1 /* StreakScreen.swift in Sources */,
+				1093B58B2ACD554F00BFC7F1 /* MainScreen.swift in Sources */,
+				1093B5872ACD458C00BFC7F1 /* SplashScreen.swift in Sources */,
+				1093B5922ACE7E4200BFC7F1 /* Styles.swift in Sources */,
+				104BC87D2AD0109F008464A5 /* Achievement.swift in Sources */,
+				104BC8772ACFF94C008464A5 /* Badgeview.swift in Sources */,
+				1093B55C2ACD427400BFC7F1 /* ContentView.swift in Sources */,
+				104BC8752ACFF37E008464A5 /* TopDialog.swift in Sources */,
+				1093B55A2ACD427400BFC7F1 /* TeshamesApp.swift in Sources */,
+				104BC8812AD01C2F008464A5 /* BadgesCollectionScreen.swift in Sources */,
+				107BD9BD2ACF25270035C125 /* Dialog.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1093B5622ACD427500BFC7F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1093B56B2ACD427500BFC7F1 /* TeshamesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1093B56C2ACD427500BFC7F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1093B5772ACD427500BFC7F1 /* TeshamesUITestsLaunchTests.swift in Sources */,
+				1093B5752ACD427500BFC7F1 /* TeshamesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1093B5682ACD427500BFC7F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1093B5552ACD427400BFC7F1 /* Teshames */;
+			targetProxy = 1093B5672ACD427500BFC7F1 /* PBXContainerItemProxy */;
+		};
+		1093B5722ACD427500BFC7F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1093B5552ACD427400BFC7F1 /* Teshames */;
+			targetProxy = 1093B5712ACD427500BFC7F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1093B5782ACD427500BFC7F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1093B5792ACD427500BFC7F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1093B57B2ACD427500BFC7F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Teshames/Preview Content\"";
+				DEVELOPMENT_TEAM = 76MFBX7JL9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = teshames.Teshames;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1093B57C2ACD427500BFC7F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Teshames/Preview Content\"";
+				DEVELOPMENT_TEAM = 76MFBX7JL9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = teshames.Teshames;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1093B57E2ACD427500BFC7F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76MFBX7JL9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = teshames.TeshamesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Teshames.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Teshames";
+			};
+			name = Debug;
+		};
+		1093B57F2ACD427500BFC7F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76MFBX7JL9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = teshames.TeshamesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Teshames.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Teshames";
+			};
+			name = Release;
+		};
+		1093B5812ACD427500BFC7F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76MFBX7JL9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = teshames.TeshamesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Teshames;
+			};
+			name = Debug;
+		};
+		1093B5822ACD427500BFC7F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76MFBX7JL9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = teshames.TeshamesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Teshames;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1093B5512ACD427400BFC7F1 /* Build configuration list for PBXProject "Teshames" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1093B5782ACD427500BFC7F1 /* Debug */,
+				1093B5792ACD427500BFC7F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1093B57A2ACD427500BFC7F1 /* Build configuration list for PBXNativeTarget "Teshames" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1093B57B2ACD427500BFC7F1 /* Debug */,
+				1093B57C2ACD427500BFC7F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1093B57D2ACD427500BFC7F1 /* Build configuration list for PBXNativeTarget "TeshamesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1093B57E2ACD427500BFC7F1 /* Debug */,
+				1093B57F2ACD427500BFC7F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1093B5802ACD427500BFC7F1 /* Build configuration list for PBXNativeTarget "TeshamesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1093B5812ACD427500BFC7F1 /* Debug */,
+				1093B5822ACD427500BFC7F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1093B54E2ACD427400BFC7F1 /* Project object */;
+}
