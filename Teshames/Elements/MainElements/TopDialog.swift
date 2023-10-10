@@ -19,16 +19,17 @@ struct TopDialog: View {
     
     var body: some View {
         HStack{
-            
+            ForEach(0 ..< 7) { i in
             VStack{
                 
                 ZStack{
                     
                     
+                    
                     //first circle
                     Circle()
-                        .stroke(lineWidth: 10)
-                        .frame(width: 40,height: 40)
+                        .stroke(lineWidth: 5)
+                        .frame(width: 30,height: 30)
                         .foregroundColor(.white)
                         .shadow(color:.black.opacity(0.1),radius: 10,x:10,y:10)
                     //second
@@ -50,7 +51,7 @@ struct TopDialog: View {
                     //circle prograss view
                     Circle()
                         .trim(from: /*@START_MENU_TOKEN@*/0.0/*@END_MENU_TOKEN@*/,to:trimValue)
-                        .stroke(style: StrokeStyle(lineWidth: 10,lineCap: .round))
+                        .stroke(style: StrokeStyle(lineWidth: 5,lineCap: .round))
                         .frame(width: 30,height: 30)
                         .rotationEffect(.degrees(-90))
                         .foregroundStyle(LinearGradient(gradient: Gradient(colors: [.customPink,.customYellow]), startPoint: .topLeading, endPoint: .bottomTrailing))
@@ -65,28 +66,40 @@ struct TopDialog: View {
                         }
                     
                     
-                   
                     
                     
-                }.frame(width: 350,height: 70)
-                    .background(Color.background)
-                    .cornerRadius(20)
-                    .padding(8)
-                    .shadow(radius: 8,x: 0,y:3)
+                    
+                    
+                }
                 
                 
+                Text("SUN").fontWeight(.light).font(.caption)
                 
-               
+                
+                    .padding(.top, 3.0)
+                
+            }
+                
+            } .padding(.horizontal, 4.0)
                 
              
                 
-            }
+                
+               
+            
+             
+                
+            }.frame(width: 350,height: 100)
+            .background(Color.background)
+            .cornerRadius(20)
+            .shadow(radius: 8,x: 0,y:3)
+           
             
            
             
             
         }
-    }
+    
 }
 
 #Preview {
