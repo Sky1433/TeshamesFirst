@@ -27,7 +27,7 @@ struct SteakHeader: View {
                     
             }
             Spacer()
-            Text("🌥️").font(.system(size: 90))
+            Text("🌥️").font(.system(size: 95))
             
 
 

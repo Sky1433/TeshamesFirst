@@ -15,7 +15,7 @@ struct BadgesCollectionScreen: View {
                 VStack{
                     HStack(alignment: .top ) {
                         VStack(alignment: .leading, spacing: 12 ) {
-                            Text("October  ")
+                            Text("Oct  ")
                                 .font(.title2)
                                 .fontWeight(.semibold)
                                 .foregroundColor(Color.black)
@@ -43,7 +43,7 @@ struct BadgesCollectionScreen: View {
                 VStack{
                     HStack(alignment: .top) {
                         VStack(alignment: .leading, spacing: 12 ) {
-                            Text("October  ")
+                            Text("Oct ")
                                 .font(.title2)
                                 .fontWeight(.semibold)
                                 .foregroundColor(Color.black)

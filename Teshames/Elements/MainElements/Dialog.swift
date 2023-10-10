@@ -8,19 +8,27 @@
 import SwiftUI
 
 struct Dialog: View {
-    @State private var progress: Double = 0.0
-    @State private var isTimerRunning = false
-        @State private var shouldReset = false // Added state for resetting
-       let timer = Timer.publish(every: 1.0, on: .main, in: .common).autoconnect() // Update every second
-       let totalTime: TimeInterval = 900.0 // 15 minutes in seconds
     
+    @State private var timeRemaining = 900 // 15 minutes in seconds
+       @State private var timerRunning = false
+       private var timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
+    @State private var currentProgress: Double = 0.0
+    @State private var trimValue: CGFloat = 0.0
+    
+    // Array to store progress for each day of the week
+        @State private var dayProgress: [CGFloat] = Array(repeating: 0.0, count: 7)
+
+
    
     var body: some View{
         
        
        
         ZStack{
-            Text("Time ")
+           
+            Text(timeString(timeRemaining))
+                       .font(.title)
+                       .padding()
            
             //first circle
             Circle()
@@ -46,41 +54,70 @@ struct Dialog: View {
                 }
             //circle prograss view
             Circle()
-                .trim(from: /*@START_MENU_TOKEN@*/0.0/*@END_MENU_TOKEN@*/,to:0.5)
+                .trim(from: /*@START_MENU_TOKEN@*/0.0/*@END_MENU_TOKEN@*/,to:trimValue)
                 .stroke(style: StrokeStyle(lineWidth: 24,lineCap: .round))
                 .frame(width: 200,height: 200)
                 .rotationEffect(.degrees(-90))
-                .foregroundStyle(LinearGradient(gradient: Gradient(colors: [.pink,.yellow]), startPoint: .topLeading, endPoint: .bottomTrailing))
+                .foregroundStyle(LinearGradient(gradient: Gradient(colors: [.customPink,.customYellow]), startPoint: .topLeading, endPoint: .bottomTrailing))
+
                 .onReceive(timer) { _ in
                     withAnimation {
-                        progress += 1.0 / totalTime
-                        if progress >= 1.0 {
-                            timer.upstream.connect().cancel() // Stop the timer when progress is complete
+                        if timerRunning && timeRemaining > 0 {
+                            timeRemaining -= 1
+                            trimValue = 1.0 - CGFloat(timeRemaining) / 900.0
                         }
                     }
-                    
-                    
-                    
-                    
-                }
-           
+                   }
         }
         .padding(.vertical, 24.0)
         
         
         HStack(spacing: 20) {
-            Buttons(imageName: "pause.circle.fill") {
-                       // Add your pause action here
-                       print("Pause tapped!")
-                   }
-            Buttons(imageName: "play.circle.fill") {
-                       // Add your start action here
-                       print("Start tapped!")
-                   }
-            Buttons(imageName: "gobackward") {
-                       // Add your restart action here
-                       print("Restart tapped!")
-                   }
+            
+            Button(action: {
+                pauseTimer()
+                print("Pause tapped!")
+                            }) {
+                                Image(systemName: "pause.circle.fill")
+                                    .font(.largeTitle)
+                                    .padding()
+                                    .frame(width: 60,height: 60)
+                                    .background(.customPink)
+                                    .foregroundColor(.white)
+                                    .cornerRadius(40)
+                            }
+                            
+            Button(action: {
+                                startTimer()
+                print("Start tapped!")
+                            }) {
+                                Image(systemName: "play.circle.fill")
+                                    .font(.largeTitle)
+                                    .padding()
+                                    .frame(width: 60,height: 60)
+                                    .background(.customPink)
+                                    .foregroundColor(.white)
+                                    .cornerRadius(40)
+                            }
+                           
+            Button(action: {
+                restartTimer()
+                print("Restart tapped!")
+               
+                            }) {
+                                Image(systemName: "gobackward")
+                                    .font(.largeTitle)
+                                    .padding()
+                                    .frame(width: 60,height: 60)
+                                    .background(.customPink)
+                                    .foregroundColor(.white)
+                                    .cornerRadius(40)
+                            }
+                    
+            
+            
+            
+           
                }
   
         
@@ -89,11 +126,24 @@ struct Dialog: View {
         
       
     }
-    func formatTime(timeRemaining: TimeInterval) -> String {
-        let minutes = Int(timeRemaining) / 60
-        let seconds = Int(timeRemaining) % 60
-        return String(format: "%02d:%02d", minutes, seconds)
-    }
+    private func startTimer() {
+           timerRunning = true
+       }
+       
+       private func pauseTimer() {
+           timerRunning = false
+       }
+       
+       private func restartTimer() {
+           timerRunning = false
+           timeRemaining = 900 // Reset to 15 minutes
+       }
+       
+       private func timeString(_ time: Int) -> String {
+           let minutes = time / 60
+           let seconds = time % 60
+           return String(format: "%02d:%02d", minutes, seconds)
+       }
     
     
     

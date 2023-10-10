@@ -27,12 +27,27 @@ struct Badgeview: View {
                            .padding(.vertical, 7.0)
             
             HStack{
+                Image("Badge 1")
+                    .resizable()
+                    .scaledToFit()
+                Image("Badge 5")
+                    .resizable()
+                    .scaledToFit()
+                    .opacity(0.3)
+                Image("Badge 6")
+                    .resizable()
+                    .scaledToFit()
+                    .opacity(0.3)
+                    
+                    
+                
                 
             }.frame(width: 350,height: 120)
                 .background(Color.background)
                 .cornerRadius(20)
                 .padding(2)
-                .shadow(radius: 1,x: 4,y:3)
+                .shadow(radius: 8,x: 0,y:3)
+            
             
         
        

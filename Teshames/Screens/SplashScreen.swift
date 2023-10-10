@@ -24,7 +24,7 @@ struct SplashScreen: View {
                     
                     
                     VStack {
-                        Image("logo")
+                        Image("logo2")
                             .renderingMode(.original)
                             .font(.system(size: 80))
                             .foregroundColor(.red)
@@ -47,7 +47,7 @@ struct SplashScreen: View {
                         }
                     }
                 }
-            }
+            }.background(Color.customYellow)
         }
     }
 }
