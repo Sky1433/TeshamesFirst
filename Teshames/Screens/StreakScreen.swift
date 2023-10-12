@@ -10,6 +10,7 @@ import SwiftUI
 struct StreakScreen: View {
     var body: some View { 
         ScrollView{
+            
             HStack(alignment: .top) {
             
             VStack(){
@@ -24,7 +25,12 @@ struct StreakScreen: View {
             
                 .padding(.trailing,20)
                 .padding(.bottom, 5.0)
-
+                .toolbar{
+                    ToolbarItem{
+                        Text("Streak")
+                            .multilineTextAlignment(.center)
+                    }
+                }
             
 
 

@@ -13,7 +13,8 @@ struct MainScreen: View {
             
             ScrollView {
                 HeaderView().padding()
-                TopDialog().padding(.horizontal, 2.0).padding(.vertical,2.0)
+                //TopDialog(trimValue: .constant(0.5))
+                    //.padding(.horizontal, 2.0).padding(.vertical,2.0)
                 Dialog()
                 Badgeview()
                 

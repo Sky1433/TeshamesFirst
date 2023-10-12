@@ -11,7 +11,7 @@ struct Achievement: View {
     var body: some View {
         HStack{
             
-            Text("Achievement") .font(.title)
+            Text("Badges") .font(.title2)
                 .fontWeight(.medium)
                 Spacer()
             Button(action: {
@@ -20,8 +20,8 @@ struct Achievement: View {
                        Text("Show more")
                            .foregroundColor(.black)
                            .fontWeight(.regular)
-                   }.padding(.trailing)
-        }.padding(.horizontal, 12.0)
+                   }
+        }
         
         ZStack{
             HStack{

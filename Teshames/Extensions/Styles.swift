@@ -10,9 +10,9 @@ import SwiftUI
 
 extension Color{
     static let Background=Color("background")
-    static let yellowColor=Color("yellow")
-    static let blackColor=Color("black")
-    static let pinkColor=Color("pink")
+    static let yellowColor=Color("CustomYellow")
+    static let blackColor=Color("customBlack")
+    static let pinkColor=Color("CustomPink")
 
 
 

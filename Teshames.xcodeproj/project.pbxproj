@@ -70,6 +70,7 @@
 		1093B58D2ACD743900BFC7F1 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		1093B5912ACE7E4200BFC7F1 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 		1093B5932ACE85BA00BFC7F1 /* StreakScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakScreen.swift; sourceTree = "<group>"; };
+		10EC8B742AD7C72A00E59653 /* Teshames.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Teshames.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +143,7 @@
 		1093B5582ACD427400BFC7F1 /* Teshames */ = {
 			isa = PBXGroup;
 			children = (
+				10EC8B742AD7C72A00E59653 /* Teshames.entitlements */,
 				1093B5902ACE7E0200BFC7F1 /* Extensions */,
 				1093B58C2ACD740B00BFC7F1 /* Elements */,
 				1093B5832ACD42A000BFC7F1 /* Screens */,
@@ -511,6 +513,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Teshames/Teshames.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Teshames/Preview Content\"";
@@ -540,6 +543,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Teshames/Teshames.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Teshames/Preview Content\"";

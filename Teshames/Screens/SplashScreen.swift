@@ -18,7 +18,7 @@ struct SplashScreen: View {
             MainScreen()
         } else {
             ZStack{
-                Color("yallow")
+                Color(Color.yellowColor)
                     .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
                 VStack {
                     
@@ -47,7 +47,7 @@ struct SplashScreen: View {
                         }
                     }
                 }
-            }.background(Color.customYellow)
+            }.background(Color.yellowColor)
         }
     }
 }

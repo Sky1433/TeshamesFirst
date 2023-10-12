@@ -20,8 +20,6 @@ struct SteakHeader: View {
                     .font(.title2)
                     .fontWeight(.semibold)
                     .foregroundColor(Color.black)
-                    
-                    
                 Text("No Streak yet")
                     .foregroundColor(Color.black)
                     

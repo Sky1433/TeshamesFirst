@@ -33,11 +33,11 @@ struct Badgeview: View {
                 Image("Badge 5")
                     .resizable()
                     .scaledToFit()
-                    .opacity(0.3)
+                    .opacity(0.2)
                 Image("Badge 6")
                     .resizable()
                     .scaledToFit()
-                    .opacity(0.3)
+                    .opacity(0.2)
                     
                     
                 
