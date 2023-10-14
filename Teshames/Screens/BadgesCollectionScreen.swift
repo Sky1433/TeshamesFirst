@@ -39,6 +39,15 @@ struct BadgesCollectionScreen: View {
                     }.frame(width: 370,height: 120)
                         .background(Color.background)
                         .cornerRadius(20)
+                        .toolbar {
+                            ToolbarItem(placement: .principal) {
+                                HStack {
+                                   
+                                    Text("Badges").font(.headline)
+                                }
+                            }
+                            
+                        }
                      
                 VStack{
                     HStack(alignment: .top) {

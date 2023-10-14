@@ -8,10 +8,10 @@
 import SwiftUI
 
 struct Dialog: View {
-    
-  
    
   
+    
+  /*
     @State var timeRemaining = 900 // 15 minutes in seconds
        @State  var timerRunning = false
     //a timer value 
@@ -22,10 +22,27 @@ struct Dialog: View {
     //the progress of the trim
     @State  var currentProgress: Double = 0.0
     //@State var trimValue: CGFloat = 0.0
+    */
+    
+  
+        @AppStorage("timeRemaining") var timeRemaining: Int = 900
+        @AppStorage("timerRunning") var timerRunning: Bool = false
+        @AppStorage("currentProgress") var currentProgress: Double = 0.0
+        @AppStorage("currentDay") var currentDay: Int = Calendar.current.component(.weekday, from: Date())
+        
+
     
     
+    @State private var trimValues: [Int: CGFloat] = [:]
+
+       
+    //timer
+  
+    var timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     
-    @State var trimValues: [Int: CGFloat] = [:]
+  
+    
+    
     //to Bind
     var trimmedValueBinding: Binding<CGFloat> {
         Binding(get: {
@@ -34,7 +51,8 @@ struct Dialog: View {
             self.trimValues[currentDay] = newValue
         })
     }
-   
+    
+    
 
  
    
@@ -44,7 +62,8 @@ struct Dialog: View {
 
 //                   Text("Trim Value for Day \(currentDay)☀️: \(trimValues[currentDay] ?? 0.0)")
 
-     
+        Text("Matching Days: \(countDaysWithMatchingTrim())")
+
         ZStack{
            
             Text(timeString(timeRemaining))
@@ -104,6 +123,7 @@ struct Dialog: View {
             
             Button(action: {
                 pauseTimer()
+        
               
                 print("Pause tapped!")
                             }) {
@@ -118,6 +138,8 @@ struct Dialog: View {
                             
             Button(action: {
                                 startTimer()
+        
+                
                 print("Start tapped!")
                 
                             }) {
@@ -132,6 +154,7 @@ struct Dialog: View {
                            
             Button(action: {
                 restartTimer()
+              
                 print("Restart tapped!")
                
                             }) {
@@ -170,12 +193,29 @@ struct Dialog: View {
            timerRunning = false
            timeRemaining = 900 // Reset to 15 minutes
        }
+    private func timeString(_ time: Int) -> String {
+        let minutes = time / 60
+        let seconds = time % 60
+        return String(format: "%02d:%02d", minutes, seconds)
+    }
        
-       private func timeString(_ time: Int) -> String {
-           let minutes = time / 60
-           let seconds = time % 60
-           return String(format: "%02d:%02d", minutes, seconds)
-       }
+    
+    private func countDaysWithMatchingTrim() -> Int {
+        var matchingDays = 0
+        let currentDay = Calendar.current.component(.weekday, from: Date())
+        let currentTrimValue = trimValues[currentDay] ?? currentProgress
+        
+        for day in 1...6 { // Assuming 1 to 7 represents the days of the week
+            if trimValues[day] == currentTrimValue {
+                matchingDays += 1
+            }
+        }
+        
+        return matchingDays
+    }
+    
+  
+   
     
     
     

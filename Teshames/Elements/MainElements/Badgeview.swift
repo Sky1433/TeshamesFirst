@@ -27,7 +27,7 @@ struct Badgeview: View {
                            .padding(.vertical, 7.0)
             
             HStack{
-                Image("Badge 1")
+                Image("Badge 2")
                     .resizable()
                     .scaledToFit()
                 Image("Badge 5")

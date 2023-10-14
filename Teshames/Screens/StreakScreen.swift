@@ -14,7 +14,7 @@ struct StreakScreen: View {
             HStack(alignment: .top) {
             
             VStack(){
-                
+        
                 SteakHeader().padding(.bottom,10)
                 Achievement()
                 Calender()
@@ -25,13 +25,15 @@ struct StreakScreen: View {
             
                 .padding(.trailing,20)
                 .padding(.bottom, 5.0)
-                .toolbar{
-                    ToolbarItem{
-                        Text("Streak")
-                            .multilineTextAlignment(.center)
+                .toolbar {
+                    ToolbarItem(placement: .principal) {
+                        HStack {
+                           
+                            Text("Streak").font(.headline)
+                        }
                     }
+                    
                 }
-            
 
 
         }
