@@ -18,7 +18,7 @@ struct Achievement: View {
                        
                    }) {
                        Text("Show more")
-                           .foregroundColor(.black)
+                           .foregroundColor(.pink)
                            .fontWeight(.regular)
                    }
         }

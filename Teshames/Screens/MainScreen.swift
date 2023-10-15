@@ -29,7 +29,7 @@ struct MainScreen: View {
                             
                         ) {
                             Image(systemName: "target")
-                                .foregroundColor(.black)
+                                .foregroundColor(.pink)
                                 .symbolRenderingMode(.palette)
                             
                             
@@ -39,7 +39,7 @@ struct MainScreen: View {
                 }
             
             
-        }
+        }.tint(.yellow)
         
     }
 }

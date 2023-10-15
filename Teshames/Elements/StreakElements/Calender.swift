@@ -8,21 +8,37 @@
 import SwiftUI
 
 struct Calender: View {
+    @State var date = Date()
+    @State private var dates: Set<DateComponents> = []
+    
     var body: some View {
-        HStack{
+        NavigationStack{
             
-            Text("Streak Calendar") .font(.title)
-                .fontWeight(.medium)
-           
-            Spacer(minLength: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/)
-            
-        }.padding(.vertical, 7.0)
-        
-        MultiDatePicker(/*@START_MENU_TOKEN@*/"Label"/*@END_MENU_TOKEN@*/, selection: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Binding<Set<DateComponents>>@*/.constant([])/*@END_MENU_TOKEN@*/)
-
+            HStack{
+                
+                //Text("Streak Calendar") .font(.title)
+                
+                   // .fontWeight(.medium)
+                
+                Spacer(minLength: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/)
+                
+                
+            }
+            .navigationTitle("Streak Calendar")
+            //.padding(.vertical, 7.0)
+            MultiDatePicker("Dates Available", selection: $dates)
+                .tint(.yellow)
+        }//end of stack
        
-    }
         
+            
+        
+        
+        
+       // DatePicker("Select a date", selection: $date)
+        
+    }
+
     }
 
 
