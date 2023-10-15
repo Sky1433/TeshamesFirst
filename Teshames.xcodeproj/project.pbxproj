@@ -27,6 +27,7 @@
 		1093B58E2ACD743900BFC7F1 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1093B58D2ACD743900BFC7F1 /* HeaderView.swift */; };
 		1093B5922ACE7E4200BFC7F1 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1093B5912ACE7E4200BFC7F1 /* Styles.swift */; };
 		1093B5942ACE85BA00BFC7F1 /* StreakScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1093B5932ACE85BA00BFC7F1 /* StreakScreen.swift */; };
+		354208BB2ADBE364003CF501 /* LocalNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354208BA2ADBE364003CF501 /* LocalNotifications.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		1093B5912ACE7E4200BFC7F1 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 		1093B5932ACE85BA00BFC7F1 /* StreakScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakScreen.swift; sourceTree = "<group>"; };
 		10EC8B742AD7C72A00E59653 /* Teshames.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Teshames.entitlements; sourceTree = "<group>"; };
+		354208BA2ADBE364003CF501 /* LocalNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotifications.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 				1093B58C2ACD740B00BFC7F1 /* Elements */,
 				1093B5832ACD42A000BFC7F1 /* Screens */,
 				1093B5592ACD427400BFC7F1 /* TeshamesApp.swift */,
+				354208BA2ADBE364003CF501 /* LocalNotifications.swift */,
 				1093B55D2ACD427500BFC7F1 /* Assets.xcassets */,
 				1093B55F2ACD427500BFC7F1 /* Preview Content */,
 			);
@@ -346,6 +349,7 @@
 				1093B58B2ACD554F00BFC7F1 /* MainScreen.swift in Sources */,
 				1093B5872ACD458C00BFC7F1 /* SplashScreen.swift in Sources */,
 				1093B5922ACE7E4200BFC7F1 /* Styles.swift in Sources */,
+				354208BB2ADBE364003CF501 /* LocalNotifications.swift in Sources */,
 				104BC87D2AD0109F008464A5 /* Achievement.swift in Sources */,
 				104BC8772ACFF94C008464A5 /* Badgeview.swift in Sources */,
 				1093B55C2ACD427400BFC7F1 /* ContentView.swift in Sources */,

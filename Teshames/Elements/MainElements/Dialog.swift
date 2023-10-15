@@ -138,8 +138,7 @@ struct Dialog: View {
                             
             Button(action: {
                                 startTimer()
-        
-                
+                NotificationManager.instance.schedualeNotification()
                 print("Start tapped!")
                 
                             }) {
