@@ -61,7 +61,7 @@ struct Widget_TashamsEntryView : View {
                             //.font(.system(size: 18))
                             }.offset(x:-20)
                    
-                    Text("Steak Days")
+                    Text("Streak Days")
                         .font(.system(size: 14))
                         .fontWeight(.semibold)
                         .multilineTextAlignment(.leading)
