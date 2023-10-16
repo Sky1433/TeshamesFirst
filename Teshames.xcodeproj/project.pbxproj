@@ -27,6 +27,13 @@
 		1093B58E2ACD743900BFC7F1 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1093B58D2ACD743900BFC7F1 /* HeaderView.swift */; };
 		1093B5922ACE7E4200BFC7F1 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1093B5912ACE7E4200BFC7F1 /* Styles.swift */; };
 		1093B5942ACE85BA00BFC7F1 /* StreakScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1093B5932ACE85BA00BFC7F1 /* StreakScreen.swift */; };
+		22904C4E2ADD1B9B00B41926 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22904C4D2ADD1B9B00B41926 /* WidgetKit.framework */; };
+		22904C502ADD1B9B00B41926 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22904C4F2ADD1B9B00B41926 /* SwiftUI.framework */; };
+		22904C532ADD1B9B00B41926 /* Widget_TashamsBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22904C522ADD1B9B00B41926 /* Widget_TashamsBundle.swift */; };
+		22904C552ADD1B9B00B41926 /* Widget_Tashams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22904C542ADD1B9B00B41926 /* Widget_Tashams.swift */; };
+		22904C572ADD1B9D00B41926 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22904C562ADD1B9D00B41926 /* Assets.xcassets */; };
+		22904C5B2ADD1B9D00B41926 /* Widget_TashamsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 22904C4B2ADD1B9B00B41926 /* Widget_TashamsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		22904C622ADD1D1E00B41926 /* DataService  .swift in Sources */ = {isa = PBXBuildFile; fileRef = 22904C612ADD1D1E00B41926 /* DataService  .swift */; };
 		354208BB2ADBE364003CF501 /* LocalNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354208BA2ADBE364003CF501 /* LocalNotifications.swift */; };
 /* End PBXBuildFile section */
 
@@ -45,7 +52,28 @@
 			remoteGlobalIDString = 1093B5552ACD427400BFC7F1;
 			remoteInfo = Teshames;
 		};
+		22904C592ADD1B9D00B41926 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1093B54E2ACD427400BFC7F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22904C4A2ADD1B9B00B41926;
+			remoteInfo = Widget_TashamsExtension;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		22904C5C2ADD1B9D00B41926 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				22904C5B2ADD1B9D00B41926 /* Widget_TashamsExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		104BC8722ACFEF9B008464A5 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
@@ -72,6 +100,15 @@
 		1093B5912ACE7E4200BFC7F1 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 		1093B5932ACE85BA00BFC7F1 /* StreakScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakScreen.swift; sourceTree = "<group>"; };
 		10EC8B742AD7C72A00E59653 /* Teshames.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Teshames.entitlements; sourceTree = "<group>"; };
+		22904C4B2ADD1B9B00B41926 /* Widget_TashamsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Widget_TashamsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		22904C4D2ADD1B9B00B41926 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		22904C4F2ADD1B9B00B41926 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		22904C522ADD1B9B00B41926 /* Widget_TashamsBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Widget_TashamsBundle.swift; sourceTree = "<group>"; };
+		22904C542ADD1B9B00B41926 /* Widget_Tashams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Widget_Tashams.swift; sourceTree = "<group>"; };
+		22904C562ADD1B9D00B41926 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22904C582ADD1B9D00B41926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22904C602ADD1C7800B41926 /* Widget_TashamsExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Widget_TashamsExtension.entitlements; sourceTree = "<group>"; };
+		22904C612ADD1D1E00B41926 /* DataService  .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataService  .swift"; sourceTree = "<group>"; };
 		354208BA2ADBE364003CF501 /* LocalNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotifications.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,6 +131,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22904C482ADD1B9B00B41926 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22904C502ADD1B9B00B41926 /* SwiftUI.framework in Frameworks */,
+				22904C4E2ADD1B9B00B41926 /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,9 +171,12 @@
 		1093B54D2ACD427400BFC7F1 = {
 			isa = PBXGroup;
 			children = (
+				22904C602ADD1C7800B41926 /* Widget_TashamsExtension.entitlements */,
 				1093B5582ACD427400BFC7F1 /* Teshames */,
 				1093B5692ACD427500BFC7F1 /* TeshamesTests */,
 				1093B5732ACD427500BFC7F1 /* TeshamesUITests */,
+				22904C512ADD1B9B00B41926 /* Widget_Tashams */,
+				22904C4C2ADD1B9B00B41926 /* Frameworks */,
 				1093B5572ACD427400BFC7F1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -138,6 +187,7 @@
 				1093B5562ACD427400BFC7F1 /* Teshames.app */,
 				1093B5662ACD427500BFC7F1 /* TeshamesTests.xctest */,
 				1093B5702ACD427500BFC7F1 /* TeshamesUITests.xctest */,
+				22904C4B2ADD1B9B00B41926 /* Widget_TashamsExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -211,6 +261,27 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		22904C4C2ADD1B9B00B41926 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22904C4D2ADD1B9B00B41926 /* WidgetKit.framework */,
+				22904C4F2ADD1B9B00B41926 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22904C512ADD1B9B00B41926 /* Widget_Tashams */ = {
+			isa = PBXGroup;
+			children = (
+				22904C522ADD1B9B00B41926 /* Widget_TashamsBundle.swift */,
+				22904C542ADD1B9B00B41926 /* Widget_Tashams.swift */,
+				22904C612ADD1D1E00B41926 /* DataService  .swift */,
+				22904C562ADD1B9D00B41926 /* Assets.xcassets */,
+				22904C582ADD1B9D00B41926 /* Info.plist */,
+			);
+			path = Widget_Tashams;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -221,10 +292,12 @@
 				1093B5522ACD427400BFC7F1 /* Sources */,
 				1093B5532ACD427400BFC7F1 /* Frameworks */,
 				1093B5542ACD427400BFC7F1 /* Resources */,
+				22904C5C2ADD1B9D00B41926 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				22904C5A2ADD1B9D00B41926 /* PBXTargetDependency */,
 			);
 			name = Teshames;
 			productName = Teshames;
@@ -267,6 +340,23 @@
 			productReference = 1093B5702ACD427500BFC7F1 /* TeshamesUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		22904C4A2ADD1B9B00B41926 /* Widget_TashamsExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22904C5F2ADD1B9D00B41926 /* Build configuration list for PBXNativeTarget "Widget_TashamsExtension" */;
+			buildPhases = (
+				22904C472ADD1B9B00B41926 /* Sources */,
+				22904C482ADD1B9B00B41926 /* Frameworks */,
+				22904C492ADD1B9B00B41926 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Widget_TashamsExtension;
+			productName = Widget_TashamsExtension;
+			productReference = 22904C4B2ADD1B9B00B41926 /* Widget_TashamsExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -288,6 +378,9 @@
 						CreatedOnToolsVersion = 15.0;
 						TestTargetID = 1093B5552ACD427400BFC7F1;
 					};
+					22904C4A2ADD1B9B00B41926 = {
+						CreatedOnToolsVersion = 15.0;
+					};
 				};
 			};
 			buildConfigurationList = 1093B5512ACD427400BFC7F1 /* Build configuration list for PBXProject "Teshames" */;
@@ -306,6 +399,7 @@
 				1093B5552ACD427400BFC7F1 /* Teshames */,
 				1093B5652ACD427500BFC7F1 /* TeshamesTests */,
 				1093B56F2ACD427500BFC7F1 /* TeshamesUITests */,
+				22904C4A2ADD1B9B00B41926 /* Widget_TashamsExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -331,6 +425,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22904C492ADD1B9B00B41926 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22904C572ADD1B9D00B41926 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +479,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		22904C472ADD1B9B00B41926 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22904C532ADD1B9B00B41926 /* Widget_TashamsBundle.swift in Sources */,
+				22904C552ADD1B9B00B41926 /* Widget_Tashams.swift in Sources */,
+				22904C622ADD1D1E00B41926 /* DataService  .swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -389,6 +501,11 @@
 			isa = PBXTargetDependency;
 			target = 1093B5552ACD427400BFC7F1 /* Teshames */;
 			targetProxy = 1093B5712ACD427500BFC7F1 /* PBXContainerItemProxy */;
+		};
+		22904C5A2ADD1B9D00B41926 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22904C4A2ADD1B9B00B41926 /* Widget_TashamsExtension */;
+			targetProxy = 22904C592ADD1B9D00B41926 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -515,6 +632,7 @@
 		1093B57B2ACD427500BFC7F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Teshames/Teshames.entitlements;
@@ -545,6 +663,7 @@
 		1093B57C2ACD427500BFC7F1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Teshames/Teshames.entitlements;
@@ -648,6 +767,62 @@
 			};
 			name = Release;
 		};
+		22904C5D2ADD1B9D00B41926 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = Widget_TashamsExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76MFBX7JL9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Widget_Tashams/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Widget_Tashams;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "teshames.Teshames.Widget-Tashams";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22904C5E2ADD1B9D00B41926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = Widget_TashamsExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76MFBX7JL9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Widget_Tashams/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Widget_Tashams;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "teshames.Teshames.Widget-Tashams";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -683,6 +858,15 @@
 			buildConfigurations = (
 				1093B5812ACD427500BFC7F1 /* Debug */,
 				1093B5822ACD427500BFC7F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22904C5F2ADD1B9D00B41926 /* Build configuration list for PBXNativeTarget "Widget_TashamsExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22904C5D2ADD1B9D00B41926 /* Debug */,
+				22904C5E2ADD1B9D00B41926 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
