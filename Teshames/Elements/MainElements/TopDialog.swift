@@ -70,22 +70,19 @@ struct TopDialog: View {
                             .stroke(style: StrokeStyle(lineWidth: 5, lineCap: .round))
                             .frame(width: 30, height: 30)
                             .rotationEffect(.degrees(-90))
-                            .foregroundStyle(LinearGradient(gradient: Gradient(colors: [.pinkColor,.yellowColor]), startPoint: .topLeading, endPoint: .bottomTrailing))
+                            .foregroundStyle(LinearGradient(gradient: Gradient(colors: [.custompink,.customyellow]), startPoint: .topLeading, endPoint: .bottomTrailing))
                         
                     }
                     
-                    //                    Text(daysOfWeek[i])
-                    //                        .fontWeight(.light)
-                    //                        .font(.caption)
-                    //                        .padding(.top, 3.0)
+                   
                     Text(daysOfWeek[i])
                         .fontWeight(.light)
                         .font(.caption)
                         .padding(.top, 3.0)
                     
-                    Text(getDateForDay(index: i))
-                        .font(.caption)
-                        .foregroundColor(.gray)
+//                    Text(getDateForDay(index: i))
+//                        .font(.caption)
+//                        .foregroundColor(.gray)
                 }
             }
             .padding(.horizontal, 4.0)

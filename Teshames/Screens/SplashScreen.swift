@@ -47,7 +47,7 @@ struct SplashScreen: View {
                         }
                     }
                 }
-            }.background(Color.yellowColor)
+            }.background(.customyellow)
         }
     }
 }

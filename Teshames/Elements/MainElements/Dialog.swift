@@ -11,18 +11,7 @@ struct Dialog: View {
    
   
     
-  /*
-    @State var timeRemaining = 900 // 15 minutes in seconds
-       @State  var timerRunning = false
-    //a timer value 
-        var timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
-    //current day at a list of number from 1 to 7
-    
-    var currentDay = Calendar.current.component(.weekday, from: Date())
-    //the progress of the trim
-    @State  var currentProgress: Double = 0.0
-    //@State var trimValue: CGFloat = 0.0
-    */
+ 
     
   
         @AppStorage("timeRemaining") var timeRemaining: Int = 900
@@ -62,7 +51,7 @@ struct Dialog: View {
 
 //                   Text("Trim Value for Day \(currentDay)☀️: \(trimValues[currentDay] ?? 0.0)")
 
-        Text("Matching Days: \(countDaysWithMatchingTrim())")
+       
 
         ZStack{
            
@@ -101,7 +90,7 @@ struct Dialog: View {
                              .stroke(style: StrokeStyle(lineWidth: 24, lineCap: .round))
                              .frame(width: 200, height: 200)
                              .rotationEffect(.degrees(-90))
-                             .foregroundStyle(LinearGradient(gradient: Gradient(colors: [.pinkColor,.yellowColor]), startPoint: .topLeading, endPoint: .bottomTrailing))
+                             .foregroundStyle(LinearGradient(gradient: Gradient(colors: [.custompink,.customyellow]), startPoint: .topLeading, endPoint: .bottomTrailing))
                              .onReceive(timer) { _ in
                                  withAnimation {
                                      if timerRunning && timeRemaining > 0 {
@@ -131,7 +120,7 @@ struct Dialog: View {
                                     .font(.largeTitle)
                                     .padding()
                                     .frame(width: 60,height: 60)
-                                    .background(Color.pinkColor)
+                                    .background(.custompink)
                                     .foregroundColor(.white)
                                     .cornerRadius(40)
                             }
@@ -146,7 +135,7 @@ struct Dialog: View {
                                     .font(.largeTitle)
                                     .padding()
                                     .frame(width: 60,height: 60)
-                                    .background(Color.pinkColor)
+                                    .background(.custompink)
                                     .foregroundColor(.white)
                                     .cornerRadius(40)
                             }
@@ -161,7 +150,7 @@ struct Dialog: View {
                                     .font(.largeTitle)
                                     .padding()
                                     .frame(width: 60,height: 60)
-                                    .background(Color.pinkColor)
+                                    .background(.custompink)
                                     .foregroundColor(.white)
                                     .cornerRadius(40)
                             }

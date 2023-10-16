@@ -14,13 +14,7 @@ struct Achievement: View {
             Text("Badges") .font(.title2)
                 .fontWeight(.medium)
                 Spacer()
-            Button(action: {
-                       
-                   }) {
-                       Text("Show more")
-                           .foregroundColor(.pink)
-                           .fontWeight(.regular)
-                   }
+            
         }
         
         ZStack{

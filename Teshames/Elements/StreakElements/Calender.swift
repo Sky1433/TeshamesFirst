@@ -20,14 +20,15 @@ struct Calender: View {
                 
                    // .fontWeight(.medium)
                 
-                Spacer(minLength: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/)
+               
                 
                 
             }
             .navigationTitle("Streak Calendar")
-            //.padding(.vertical, 7.0)
+           // .padding(.vertical, 7.0)
             MultiDatePicker("Dates Available", selection: $dates)
                 .tint(.yellow)
+                
         }//end of stack
        
         
