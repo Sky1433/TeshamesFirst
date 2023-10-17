@@ -65,7 +65,7 @@ struct Dialog: View {
                 .stroke(lineWidth: 24)
                 .frame(width: 200,height: 200)
                 .foregroundColor(.white)
-                .shadow(color:.black.opacity(0.1),radius: 10,x:10,y:10)
+                .shadow(color:.costomGray.opacity(0.1),radius: 10,x:10,y:10)
             //second
             Circle()
                 .stroke(lineWidth: 0.34)

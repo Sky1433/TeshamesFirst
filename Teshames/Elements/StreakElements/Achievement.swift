@@ -34,7 +34,7 @@ struct Achievement: View {
                 .background(Color.background)
                 .cornerRadius(20)
                 .padding(.bottom,2)
-                .shadow(radius: 1,x: 4,y:3)
+                .shadow(color:Color.costomGray, radius: 1,x: 4,y:3)
             
         }
         

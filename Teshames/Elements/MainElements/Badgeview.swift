@@ -46,7 +46,7 @@ struct Badgeview: View {
                 .background(Color.background)
                 .cornerRadius(20)
                 .padding(2)
-                .shadow(radius: 8,x: 0,y:3)
+                .shadow(color: Color.costomGray, radius: 8,x: 0,y:3)
             
             
         

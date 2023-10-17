@@ -90,7 +90,7 @@ struct TopDialog: View {
         .frame(width: 350, height: 100)
         .background(Color.background)
         .cornerRadius(20)
-        .shadow(radius: 8, x: 0, y: 3)
+        .shadow(color: Color.costomGray, radius: 8, x: 0, y: 3)
     }
     //get the name of the day
     func getCurrentDayIndex() -> Int {

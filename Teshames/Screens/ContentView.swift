@@ -45,7 +45,7 @@ struct ContentView: View {
                     }
                 }
                 
-                    Text(" Hub in the sunlight and get ready to your Vitamin D!")
+                    Text("Hub in the sunlight and get ready to your Vitamin D!")
                         .foregroundColor(Color.black)
 
                     
