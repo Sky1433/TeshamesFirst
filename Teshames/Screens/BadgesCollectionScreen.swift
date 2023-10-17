@@ -46,7 +46,7 @@ struct BadgesCollectionScreen: View {
                             Text("1 Week")
                         }
                         
-                        VStack{     Image("Badge 6")
+                        VStack{     Image("Badge 1")
                                 .resizable()
                              
                                 .padding([.top, .trailing])
@@ -89,7 +89,7 @@ struct BadgesCollectionScreen: View {
                                             Text("1 Week")
                                         }
                                         
-                                        VStack{     Image("Badge 6")
+                                        VStack{     Image("Badge 1")
                                                 .resizable()
                                                 .scaledToFit()
                                                 .opacity(0.3)

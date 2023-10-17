@@ -16,18 +16,24 @@ struct Calender: View {
             
             HStack{
                 
-                //Text("Streak Calendar") .font(.title)
-                
-                   // .fontWeight(.medium)
+                Text("Streak Calendar") 
+                    .font(.title2)
+                    .multilineTextAlignment(.leading)
+                    .fontWeight(.medium)
+                Spacer()
                 
                
                 
                 
-            }
-            .navigationTitle("Streak Calendar")
+            }.padding(.bottom,1)
+            //.navigationTitle("Streak Calendar")
+            //.fontWeight(.medium)
+            //.font(.body)
+            
            // .padding(.vertical, 7.0)
             MultiDatePicker("Dates Available", selection: $dates)
                 .tint(.yellow)
+                .frame(width: 350,height: 350)
                 
         }//end of stack
        

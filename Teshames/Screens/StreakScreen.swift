@@ -15,9 +15,9 @@ struct StreakScreen: View {
             
             VStack(){
         
-                SteakHeader().padding(.bottom,10)
-                Achievement()
-                Calender().frame(width: 360,height: 360)
+                SteakHeader()//.padding(.bottom,3)
+                Achievement().padding(.vertical,5)
+                Calender().frame(width: 350,height: 390)
                
             
             } .padding(.top, 40.0)

@@ -19,7 +19,7 @@ struct Badgeview: View {
                 Spacer(minLength: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/)
                 NavigationLink(destination: BadgesCollectionScreen()) {
                                    Text("Show more")
-                                       .foregroundColor(.pink)
+                                       .foregroundColor(.yellow)
                                }
                                .padding(.trailing)
                            }
@@ -34,7 +34,7 @@ struct Badgeview: View {
                     .resizable()
                     .scaledToFit()
                     .opacity(0.2)
-                Image("Badge 6")
+                Image("Badge 1")
                     .resizable()
                     .scaledToFit()
                     .opacity(0.2)

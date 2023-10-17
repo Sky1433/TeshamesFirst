@@ -17,7 +17,7 @@ struct ContentView: View {
                     .foregroundColor(Color.black)
                     .multilineTextAlignment(.leading)
                 HStack{
-                    Text("Welcome to a brand new day.")
+                    Text(" Hub in the sunlight and get ready to your Vitamin D!")
                         .foregroundColor(Color.black)
 
                     Button("☀️"){

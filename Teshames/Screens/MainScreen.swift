@@ -41,8 +41,9 @@ struct MainScreen: View {
                             
                         ) {
                             Image(systemName: "target")
-                                .foregroundColor(.pink)
+                                .foregroundColor(.yellow)
                                 .symbolRenderingMode(.palette)
+                                //.imageSymbolScale()
                             
                             
                         }

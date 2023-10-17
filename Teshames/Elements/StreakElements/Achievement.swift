@@ -19,8 +19,16 @@ struct Achievement: View {
         
         ZStack{
             HStack{
-                Text("No Badges").foregroundColor(.gray)
-                    .fontWeight(.semibold)
+                ZStack{
+                    Image("Badge 2")
+                        .resizable()
+                        .scaledToFit()
+                        .padding(.trailing, 200)
+                        
+                    
+                }
+               
+              
                 
             }.frame(width: 350,height: 120)
                 .background(Color.background)
