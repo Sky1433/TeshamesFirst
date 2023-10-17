@@ -24,7 +24,6 @@
 		1093B5772ACD427500BFC7F1 /* TeshamesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1093B5762ACD427500BFC7F1 /* TeshamesUITestsLaunchTests.swift */; };
 		1093B5872ACD458C00BFC7F1 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1093B5862ACD458C00BFC7F1 /* SplashScreen.swift */; };
 		1093B58B2ACD554F00BFC7F1 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1093B58A2ACD554F00BFC7F1 /* MainScreen.swift */; };
-		1093B5922ACE7E4200BFC7F1 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1093B5912ACE7E4200BFC7F1 /* Styles.swift */; };
 		1093B5942ACE85BA00BFC7F1 /* StreakScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1093B5932ACE85BA00BFC7F1 /* StreakScreen.swift */; };
 		22904C4E2ADD1B9B00B41926 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22904C4D2ADD1B9B00B41926 /* WidgetKit.framework */; };
 		22904C502ADD1B9B00B41926 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22904C4F2ADD1B9B00B41926 /* SwiftUI.framework */; };
@@ -96,7 +95,6 @@
 		1093B5762ACD427500BFC7F1 /* TeshamesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeshamesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1093B5862ACD458C00BFC7F1 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		1093B58A2ACD554F00BFC7F1 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
-		1093B5912ACE7E4200BFC7F1 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 		1093B5932ACE85BA00BFC7F1 /* StreakScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakScreen.swift; sourceTree = "<group>"; };
 		10EC8B742AD7C72A00E59653 /* Teshames.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Teshames.entitlements; sourceTree = "<group>"; };
 		22904C4B2ADD1B9B00B41926 /* Widget_TashamsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Widget_TashamsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -256,7 +254,6 @@
 		1093B5902ACE7E0200BFC7F1 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				1093B5912ACE7E4200BFC7F1 /* Styles.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -450,7 +447,6 @@
 				1093B58B2ACD554F00BFC7F1 /* MainScreen.swift in Sources */,
 				1093B5872ACD458C00BFC7F1 /* SplashScreen.swift in Sources */,
 				356987312ADE53DC00A79876 /* InAppNotification.swift in Sources */,
-				1093B5922ACE7E4200BFC7F1 /* Styles.swift in Sources */,
 				354208BB2ADBE364003CF501 /* LocalNotifications.swift in Sources */,
 				104BC87D2AD0109F008464A5 /* Achievement.swift in Sources */,
 				104BC8772ACFF94C008464A5 /* Badgeview.swift in Sources */,

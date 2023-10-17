@@ -11,15 +11,13 @@ struct ContentView: View {
     var body: some View {
         HStack(alignment: .top) {
             VStack(alignment: .leading, spacing: 12) {
-                Text("Rise and shine!  ")
-                    .font(.title)
-                    .fontWeight(.semibold)
-                    .foregroundColor(Color.black)
-                    .multilineTextAlignment(.leading)
                 HStack{
-                    Text(" Hub in the sunlight and get ready to your Vitamin D!")
+                    Text("Rise and shine!  ")
+                        .font(.title)
+                        .fontWeight(.semibold)
                         .foregroundColor(Color.black)
-
+                        .multilineTextAlignment(.leading)
+                    
                     Button("☀️"){
                         UIApplication.shared.inAppNotification(adaptForDynamicIsland: false, timeout: 5, swipeToClose: true){
                             HStack{
@@ -45,14 +43,19 @@ struct ContentView: View {
                             }
                         }
                     }
-                    Spacer()
                 }
                 
+                    Text(" Hub in the sunlight and get ready to your Vitamin D!")
+                        .foregroundColor(Color.black)
+
+                    
+                }
+            Spacer()
             }
             
         }
     }
-}
+
 
 #Preview {
     ContentView()
