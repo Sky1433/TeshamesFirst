@@ -16,7 +16,7 @@ struct MainScreen: View {
             
             
             ScrollView {
-                HeaderView().padding()
+                ContentView().padding()
                 
                 Dialog()
                 Badgeview()

@@ -24,7 +24,6 @@
 		1093B5772ACD427500BFC7F1 /* TeshamesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1093B5762ACD427500BFC7F1 /* TeshamesUITestsLaunchTests.swift */; };
 		1093B5872ACD458C00BFC7F1 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1093B5862ACD458C00BFC7F1 /* SplashScreen.swift */; };
 		1093B58B2ACD554F00BFC7F1 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1093B58A2ACD554F00BFC7F1 /* MainScreen.swift */; };
-		1093B58E2ACD743900BFC7F1 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1093B58D2ACD743900BFC7F1 /* HeaderView.swift */; };
 		1093B5922ACE7E4200BFC7F1 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1093B5912ACE7E4200BFC7F1 /* Styles.swift */; };
 		1093B5942ACE85BA00BFC7F1 /* StreakScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1093B5932ACE85BA00BFC7F1 /* StreakScreen.swift */; };
 		22904C4E2ADD1B9B00B41926 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22904C4D2ADD1B9B00B41926 /* WidgetKit.framework */; };
@@ -35,6 +34,7 @@
 		22904C5B2ADD1B9D00B41926 /* Widget_TashamsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 22904C4B2ADD1B9B00B41926 /* Widget_TashamsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		22904C622ADD1D1E00B41926 /* DataService  .swift in Sources */ = {isa = PBXBuildFile; fileRef = 22904C612ADD1D1E00B41926 /* DataService  .swift */; };
 		354208BB2ADBE364003CF501 /* LocalNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354208BA2ADBE364003CF501 /* LocalNotifications.swift */; };
+		356987312ADE53DC00A79876 /* InAppNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356987302ADE53DC00A79876 /* InAppNotification.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,7 +96,6 @@
 		1093B5762ACD427500BFC7F1 /* TeshamesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeshamesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1093B5862ACD458C00BFC7F1 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		1093B58A2ACD554F00BFC7F1 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
-		1093B58D2ACD743900BFC7F1 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		1093B5912ACE7E4200BFC7F1 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 		1093B5932ACE85BA00BFC7F1 /* StreakScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakScreen.swift; sourceTree = "<group>"; };
 		10EC8B742AD7C72A00E59653 /* Teshames.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Teshames.entitlements; sourceTree = "<group>"; };
@@ -110,6 +109,7 @@
 		22904C602ADD1C7800B41926 /* Widget_TashamsExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Widget_TashamsExtension.entitlements; sourceTree = "<group>"; };
 		22904C612ADD1D1E00B41926 /* DataService  .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataService  .swift"; sourceTree = "<group>"; };
 		354208BA2ADBE364003CF501 /* LocalNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotifications.swift; sourceTree = "<group>"; };
+		356987302ADE53DC00A79876 /* InAppNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InAppNotification.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,7 +151,6 @@
 			children = (
 				104BC8762ACFF94C008464A5 /* Badgeview.swift */,
 				104BC8722ACFEF9B008464A5 /* Buttons.swift */,
-				1093B58D2ACD743900BFC7F1 /* HeaderView.swift */,
 				104BC8742ACFF37E008464A5 /* TopDialog.swift */,
 				107BD9BC2ACF25270035C125 /* Dialog.swift */,
 			);
@@ -240,6 +239,7 @@
 				1093B58A2ACD554F00BFC7F1 /* MainScreen.swift */,
 				1093B5932ACE85BA00BFC7F1 /* StreakScreen.swift */,
 				104BC8802AD01C2F008464A5 /* BadgesCollectionScreen.swift */,
+				356987302ADE53DC00A79876 /* InAppNotification.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -446,10 +446,10 @@
 				104BC8732ACFEF9B008464A5 /* Buttons.swift in Sources */,
 				104BC87F2AD01172008464A5 /* Calender.swift in Sources */,
 				104BC87B2AD00C11008464A5 /* SteakHeader.swift in Sources */,
-				1093B58E2ACD743900BFC7F1 /* HeaderView.swift in Sources */,
 				1093B5942ACE85BA00BFC7F1 /* StreakScreen.swift in Sources */,
 				1093B58B2ACD554F00BFC7F1 /* MainScreen.swift in Sources */,
 				1093B5872ACD458C00BFC7F1 /* SplashScreen.swift in Sources */,
+				356987312ADE53DC00A79876 /* InAppNotification.swift in Sources */,
 				1093B5922ACE7E4200BFC7F1 /* Styles.swift in Sources */,
 				354208BB2ADBE364003CF501 /* LocalNotifications.swift in Sources */,
 				104BC87D2AD0109F008464A5 /* Achievement.swift in Sources */,

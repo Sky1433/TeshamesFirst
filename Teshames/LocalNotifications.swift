@@ -34,8 +34,8 @@ class NotificationManager{
         //calender
         //morningNotifications
         var dateComponents = DateComponents()
-        dateComponents.hour = 17
-        dateComponents.minute = 10
+        dateComponents.hour = 8
+        dateComponents.minute = 41
         let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: true)
         
         let request = UNNotificationRequest(
